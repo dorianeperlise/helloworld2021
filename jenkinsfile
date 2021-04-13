@@ -22,6 +22,7 @@ pipeline {
             steps {
                 echo 'Hello deploy'
                 sh 'pwd'
+                
             }
         }
          stage('push') {
